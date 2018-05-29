@@ -1,0 +1,127 @@
+/* Project Tea Cozy */
+
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-size: 22px;
+  font-family: Helvetica;
+  text-align: center;
+  color: seashell;
+  }
+
+/* header Tea Cozy*/
+
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  margin-top: 0;
+  background-color: black;
+  z-index: 1;
+  }
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  color: seashell;
+  }
+
+.nav {
+  display: inline-block;
+  text-decoration: underline;
+  color: seashell;
+  margin-right: 10px;
+  }
+
+/* section Our Mission */
+.imgmission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  margin: 0 auto;
+  position: relative;
+  }
+
+.text {
+  position: relative;
+  top: 300px;
+  width: 100%;
+  background-color: black;
+  }
+
+  /* section Tea of the Month */
+.gallery {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  }
+
+.img {
+  height: 200px;
+  width: 300px;
+  }
+
+.gallery h4 {
+  margin-top: 10px;
+  }
+#myrthe  {
+  margin-left: 180px;
+  }
+#bedford {
+  margin-right: 180px;
+  }
+
+/* section Locations */
+.locations {
+  height: 550px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  flex-shrink: 2;
+  }
+
+#loc {
+  padding-top: 50px;
+  margin-bottom: 10px;
+  }
+
+.boxes {
+  display: inline-flex;
+  width: 1200px;
+  height: 300px;
+  justify-content: center;
+  opacity: 1;
+  }
+
+.downtown,
+.bayside,
+.oakdale {
+  width: 300px;
+  padding-top: 25px;
+  background-color: black;
+  }
+
+.downtown {
+  margin-right: 40px;
+  }
+
+.oakdale {
+  margin-left: 40px;
+  }
+
+/* footer Contact */
+.contact {
+  height: 200px;
+  }
+
+.copy {
+  margin-left: 20px;
+  text-align: left;
+  }
+
+  /* end */
